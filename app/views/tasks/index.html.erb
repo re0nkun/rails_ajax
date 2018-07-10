@@ -1,0 +1,8 @@
+<h1>Task List</h1>
+<table id="tasks" class="table">
+  <%= render @tasks %>
+</table>
+
+<%= link_to "New Task", new_task_path, remote: true %>
+
+<div id="task-form" style="display:none;"></div>
